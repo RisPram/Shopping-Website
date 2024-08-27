@@ -10,11 +10,12 @@ const AllSWRoutes = (props) => {
     },
 
     
-
+//coming soon
     // {
     //   path: "*",
     //   element: <PageNotFound />,
-    // },
+    // }, 
+    
   ]);
 
   return routes;
