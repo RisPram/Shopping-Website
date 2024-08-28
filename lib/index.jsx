@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import AllSWRoutes from "./routes";
+import Header from "./ReusableComponents/Header";
+import Footer from "./ReusableComponents/Footer";
 
 const Index = () => {
   useEffect(() => {
@@ -9,9 +11,9 @@ const Index = () => {
  return (
     <>
       
-      {/* header */}
+      <Header/>
         <AllSWRoutes/>
-        {/* footer */}
+        <Footer/>
         {/* back to top */}
         
       
