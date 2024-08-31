@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import LandingPage from "./LandingPage";
+import PageNotFound from "./ReusableComponents/PageNotFound";
 
 const AllSWRoutes = (props) => {
   let routes = useRoutes([
@@ -10,11 +11,10 @@ const AllSWRoutes = (props) => {
     },
 
     
-//coming soon
-    // {
-    //   path: "*",
-    //   element: <PageNotFound />,
-    // }, 
+    {
+      path: "*",
+      element: <PageNotFound />,
+    }, 
     
   ]);
 
