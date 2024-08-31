@@ -13,9 +13,11 @@ const Index = () => {
     <>
       
       <Header/>
+      <section className="relative">
         <AllSWRoutes/>
         <Footer/>
         <BackToTop/>
+        </section>
         
       
     </>
