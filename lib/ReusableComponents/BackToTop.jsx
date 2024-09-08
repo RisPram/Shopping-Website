@@ -30,12 +30,12 @@ const BackToTop = () => {
   };
   return (
     <section
-      className={`fixed bottom-5 right-5 flex items-center justify-end rounded-full z-[100] `}
+      className={`fixed bottom-3 sm:bottom-5 right-3 sm:right-5 flex items-center justify-end rounded-full z-[100] `}
     >
       <img
         src={backToTopArrow}
         alt=""
-        className={`back-to-top-arrow cursor-pointer bg-white p-2.5 h-10 w-10 rounded-full ${
+        className={`back-to-top-arrow cursor-pointer bg-gray-100 p-1.5 sm:p-2.5 h-8 sm:h-10 w-8 sm:w-10 rounded-full ${
           window.scrollY > 400 ? "flex" : "hidden"
         }`}
         onClick={() => {
