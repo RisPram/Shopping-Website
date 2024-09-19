@@ -8,8 +8,11 @@ export default {
   theme: {
     extend: {
       colors:{
-        demo:"#fe7678"
-      }
+        demo:"#fe7678",
+
+      },
+      keyframes:{},
+      animation:{},
     },
   },
   plugins: [],
